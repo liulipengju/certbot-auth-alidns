@@ -1,7 +1,7 @@
 # 首先关闭当前运行的nginx
 systemctl stop nginx
 
-EMAIL=liulipengju@fairplay.com.cn
+EMAIL=您的邮箱地址
 OUTPUT_DIR=letsencrypt
 if [ -d "$OUTPUT_DIR" ]
 then
